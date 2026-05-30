@@ -16,7 +16,7 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'pygame-app-sba25336'
-          slot-name: 'hunter-app-sba25336'
+          app-name: 'hunter-app-sba25336'
+          slot-name: 'forest-hunter'
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: '.'
